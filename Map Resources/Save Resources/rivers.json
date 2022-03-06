@@ -1,348 +1,348 @@
 {
-  "Tisa": {
-      "startX": 35,
-      "startY": 17,
-      "medium": [
-          "S3",
-          "W1",
-          "S1"
-      ],
-      "large": [
-          "W4"
-      ]
-  },
-  "Hornad": {
-      "startX": 33,
-      "startY": 25,
-      "medium": [
-          "N1",
-          "W1",
-          "N1",
-          "W1",
-          "N1",
-          "W1"
-      ]
-  },
-  "Koros": {
-      "startX": 31,
-      "startY": 14,
-      "medium": [
-          "W1",
-          "S1",
-          "W1",
-          "S1"
-      ]
-  },
-  "Ipoly": {
-      "startX": 30,
-      "startY": 12,
-      "small": [
-          "W3"
-      ]
-  },
-  "Somes": {
-      "startX": 41,
-      "startY": 14,
-      "medium": [
-          "W2",
-          "N2"
-      ],
-      "large": [
-          "W1",
-          "N3"
-      ]
-  },
-  "Bodrog": {
-      "startX": 35,
-      "startY": 12,
-      "small": [
-          "E1",
-          "N2",
-          "E1",
-          "N1"
-      ]
-  },
-  "Sio": {
-      "startX": 41,
-      "startY": 10,
-      "small": [
-          "N3"
-      ]
-  },
-  "Mur": {
-      "startX": 46,
-      "startY": 15,
-      "small": [
-          "S2"
-      ]
-  },
-  "Maveter": {
-      "startX": 50,
-      "startY": 15,
-      "small": [
-          "W1",
-          "S1"
-      ]
-  },
-  "Leitha": {
-      "startX": 50,
-      "startY": 11,
-      "small": [
-          "S1",
-          "E3"
-      ]
-  },
-  "Galga": {
-      "startX": 38,
-      "startY": 18,
-      "medium": [
-          "S4"
-      ],
-      "large": [
-          "E3"
-      ]
-  },
-  "Crasna": {
-      "startX": 36,
-      "startY": 23,
-      "small": [
-          "N1",
-          "E1"
-      ]
-  },
-  "Sarviz": {
-      "startX": 39,
-      "startY": 25,
-      "small": [
-          "N1",
-          "E2"
-      ],
-      "medium": [
-          "N1"
-      ]
-  },
-  "Pinka": {
-      "startX": 44,
-      "startY": 25,
-      "small": [
-          "N1"
-      ]
-  },
-  "Desna": {
-      "startX": 34,
-      "startY": 28,
-      "small": [
-          "S1"
-      ],
-      "medium": [
-          "W1",
-          "N2"
-      ],
-      "large": [
-          "W4"
-      ]
-  },
-  "Sluch": {
-      "startX": 36,
-      "startY": 29,
-      "small": [
-          "W1",
-          "S1"
-      ],
-      "medium": [
-          "W3",
-          "N1",
-          "W3"
-      ],
-      "large": [
-          "S1",
-          "W1"
-      ]
-  },
-  "Tessa": {
-      "startX": 35,
-      "startY": 31,
-      "small": [
-          "W4"
-      ],
-      "medium": [
-          "N1",
-          "W1",
-          "S1",
-          "W2"
-      ]
-  },
-  "Medjerda": {
-      "startX": 32,
-      "startY": 37,
-      "large": [
-          "S1",
-          "W3",
-          "S1",
-          "W2"
-      ]
-  },
-  "Cheliff": {
-      "startX": 35,
-      "startY": 36,
-      "small": [
-          "W1"
-      ]
-  },
-  "Sebou": {
-      "startX": 43,
-      "startY": 41,
-      "small": [
-          "S1",
-          "E1",
-          "S4"
-      ]
-  },
-  "Tekeze": {
-      "startX": 41,
-      "startY": 43,
-      "small": [
-          "S1",
-          "E1",
-          "S2"
-      ]
-  },
-  "Regreg": {
-      "startX": 35,
-      "startY": 47,
-      "small": [
-          "S1",
-          "E1"
-      ]
-  },
-  "Neckar": {
-      "startX": 46,
-      "startY": 35,
-      "small": [
-          "E1",
-          "S2",
-          "E1"
-      ]
-  },
-  "Aller": {
-      "startX": 51,
-      "startY": 29,
-      "small": [
-          "E1",
-          "N2"
-      ]
-  },
-  "Lahn": {
-      "startX": 57,
-      "startY": 28,
-      "small": [
-          "N2"
-      ]
-  },
-  "Leine": {
-      "startX": 54,
-      "startY": 31,
-      "small": [
-          "E1",
-          "S1"
-      ]
-  },
-  "Acheron": {
-      "startX": 64,
-      "startY": 33,
-      "small": [
-          "N2"
-      ]
-  },
-  "Nestos": {
-      "startX": 59,
-      "startY": 34,
-      "medium": [
-          "W2",
-          "S2",
-          "W2"
-      ]
-  },
-  "Evinos": {
-      "startX": 55,
-      "startY": 34,
-      "small": [
-          "E1"
-      ]
-  },
-  "Alfeios": {
-      "startX": 62,
-      "startY": 37,
-      "small": [
-          "S1"
-      ]
-  },
-  "Arachthos": {
-      "startX": 65,
-      "startY": 36,
-      "small": [
-          "E1",
-          "S2"
-      ]
-  },
-  "Spercheos": {
-      "startX": 67,
-      "startY": 45,
-      "small": [
-          "W1"
-      ]
-  },
-  "Gallikos": {
-      "startX": 67,
-      "startY": 44,
-      "small": [
-          "E1"
-      ]
-  },
-  "Aare": {
-      "startX": 49,
-      "startY": 37,
-      "large": [
-          "E3",
-          "S1",
-          "E1",
-          "S1",
-          "E1",
-          "S1",
-          "E3"
-      ]
-  },
-  "Reuss": {
-      "startX": 54,
-      "startY": 36,
-      "large": [
-          "S2",
-          "E1",
-          "S1",
-          "E1"
-      ]
-  },
-  "Simme": {
-      "startX": 50,
-      "startY": 41,
-      "medium": [
-          "E2",
-          "S2",
-          "E1",
-          "S1"
-      ]
-  },
-  "Saane": {
-      "startX": 47,
-      "startY": 40,
-      "medium": [
-          "S2",
-          "E1"
-      ],
-      "large": [
-          "S3",
-          "W1",
-          "S1"
-      ]
-  }
+    "Tisa": {
+        "startX": 35,
+        "startY": 17,
+        "medium": [
+            "S3",
+            "W1",
+            "S1"
+        ],
+        "large": [
+            "W4"
+        ]
+    },
+    "Hornad": {
+        "startX": 33,
+        "startY": 25,
+        "medium": [
+            "N1",
+            "W1",
+            "N1",
+            "W1",
+            "N1",
+            "W1"
+        ]
+    },
+    "Koros": {
+        "startX": 31,
+        "startY": 14,
+        "medium": [
+            "W1",
+            "S1",
+            "W1",
+            "S1"
+        ]
+    },
+    "Ipoly": {
+        "startX": 30,
+        "startY": 12,
+        "small": [
+            "W3"
+        ]
+    },
+    "Somes": {
+        "startX": 41,
+        "startY": 14,
+        "medium": [
+            "W2",
+            "N2"
+        ],
+        "large": [
+            "W1",
+            "N3"
+        ]
+    },
+    "Bodrog": {
+        "startX": 35,
+        "startY": 12,
+        "small": [
+            "E1",
+            "N2",
+            "E1",
+            "N1"
+        ]
+    },
+    "Sio": {
+        "startX": 41,
+        "startY": 10,
+        "small": [
+            "N3"
+        ]
+    },
+    "Mur": {
+        "startX": 46,
+        "startY": 15,
+        "small": [
+            "S2"
+        ]
+    },
+    "Maveter": {
+        "startX": 50,
+        "startY": 15,
+        "small": [
+            "W1",
+            "S1"
+        ]
+    },
+    "Leitha": {
+        "startX": 50,
+        "startY": 11,
+        "small": [
+            "S1",
+            "E3"
+        ]
+    },
+    "Galga": {
+        "startX": 38,
+        "startY": 18,
+        "medium": [
+            "S4"
+        ],
+        "large": [
+            "E3"
+        ]
+    },
+    "Crasna": {
+        "startX": 36,
+        "startY": 23,
+        "small": [
+            "N1",
+            "E1"
+        ]
+    },
+    "Sarviz": {
+        "startX": 39,
+        "startY": 25,
+        "small": [
+            "N1",
+            "E2"
+        ],
+        "medium": [
+            "N1"
+        ]
+    },
+    "Pinka": {
+        "startX": 44,
+        "startY": 25,
+        "small": [
+            "N1"
+        ]
+    },
+    "Desna": {
+        "startX": 34,
+        "startY": 28,
+        "small": [
+            "S1"
+        ],
+        "medium": [
+            "W1",
+            "N2"
+        ],
+        "large": [
+            "W4"
+        ]
+    },
+    "Sluch": {
+        "startX": 36,
+        "startY": 29,
+        "small": [
+            "W1",
+            "S1"
+        ],
+        "medium": [
+            "W3",
+            "N1",
+            "W3"
+        ],
+        "large": [
+            "S1",
+            "W1"
+        ]
+    },
+    "Tessa": {
+        "startX": 35,
+        "startY": 31,
+        "small": [
+            "W4"
+        ],
+        "medium": [
+            "N1",
+            "W1",
+            "S1",
+            "W2"
+        ]
+    },
+    "Medjerda": {
+        "startX": 32,
+        "startY": 37,
+        "large": [
+            "S1",
+            "W3",
+            "S1",
+            "W2"
+        ]
+    },
+    "Cheliff": {
+        "startX": 35,
+        "startY": 36,
+        "small": [
+            "W1"
+        ]
+    },
+    "Sebou": {
+        "startX": 43,
+        "startY": 41,
+        "small": [
+            "S1",
+            "E1",
+            "S4"
+        ]
+    },
+    "Tekeze": {
+        "startX": 41,
+        "startY": 43,
+        "small": [
+            "S1",
+            "E1",
+            "S2"
+        ]
+    },
+    "Regreg": {
+        "startX": 35,
+        "startY": 47,
+        "small": [
+            "S1",
+            "E1"
+        ]
+    },
+    "Neckar": {
+        "startX": 46,
+        "startY": 35,
+        "small": [
+            "E1",
+            "S2",
+            "E1"
+        ]
+    },
+    "Aller": {
+        "startX": 51,
+        "startY": 29,
+        "small": [
+            "E1",
+            "N2"
+        ]
+    },
+    "Lahn": {
+        "startX": 57,
+        "startY": 28,
+        "small": [
+            "N2"
+        ]
+    },
+    "Leine": {
+        "startX": 54,
+        "startY": 31,
+        "small": [
+            "E1",
+            "S1"
+        ]
+    },
+    "Acheron": {
+        "startX": 64,
+        "startY": 33,
+        "small": [
+            "N2"
+        ]
+    },
+    "Nestos": {
+        "startX": 59,
+        "startY": 34,
+        "medium": [
+            "W2",
+            "S2",
+            "W2"
+        ]
+    },
+    "Evinos": {
+        "startX": 55,
+        "startY": 34,
+        "small": [
+            "E1"
+        ]
+    },
+    "Alfeios": {
+        "startX": 62,
+        "startY": 37,
+        "small": [
+            "S1"
+        ]
+    },
+    "Arachthos": {
+        "startX": 65,
+        "startY": 36,
+        "small": [
+            "E1",
+            "S2"
+        ]
+    },
+    "Spercheos": {
+        "startX": 67,
+        "startY": 45,
+        "small": [
+            "W1"
+        ]
+    },
+    "Gallikos": {
+        "startX": 67,
+        "startY": 44,
+        "small": [
+            "E1"
+        ]
+    },
+    "Aare": {
+        "startX": 49,
+        "startY": 37,
+        "large": [
+            "E3",
+            "S1",
+            "E1",
+            "S1",
+            "E1",
+            "S1",
+            "E3"
+        ]
+    },
+    "Reuss": {
+        "startX": 54,
+        "startY": 36,
+        "large": [
+            "S2",
+            "E1",
+            "S1",
+            "E1"
+        ]
+    },
+    "Simme": {
+        "startX": 50,
+        "startY": 41,
+        "medium": [
+            "E2",
+            "S2",
+            "E1",
+            "S1"
+        ]
+    },
+    "Saane": {
+        "startX": 47,
+        "startY": 40,
+        "medium": [
+            "S2",
+            "E1"
+        ],
+        "large": [
+            "S3",
+            "W1",
+            "S1"
+        ]
+    }
 }

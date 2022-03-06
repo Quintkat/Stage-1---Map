@@ -45,8 +45,8 @@ func init(tileSize : int, gridSize : Vector2):
 # Moves the camera to a certain position
 func move(pos : Vector2):
 	var alteredPos = Vector2(0, 0)
-	alteredPos[0] = max(zoom[0]*displaySize[0]/2, min(mapSize[0] - zoom[0]*displaySize[0]/2, pos[0]))
-	alteredPos[1] = max(zoom[0]*displaySize[1]/2, min(mapSize[1] - zoom[1]*displaySize[1]/2, pos[1]))
+	alteredPos[0] = int(max(zoom[0]*displaySize[0]/2, min(mapSize[0] - zoom[0]*displaySize[0]/2, pos[0])))
+	alteredPos[1] = int(max(zoom[0]*displaySize[1]/2, min(mapSize[1] - zoom[1]*displaySize[1]/2, pos[1])))
 	position = alteredPos
 	Map.cameraMoveEvent()
 

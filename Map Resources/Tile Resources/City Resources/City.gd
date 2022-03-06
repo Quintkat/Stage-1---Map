@@ -9,10 +9,10 @@ var IC : int = 0
 var gridPos : Vector2 = Vector2(0, 0)
 
 # City image filepaths
-var imgSmall = "res://Map Resources/Tile Resources/City Resources/citySmall.png"
-var imgMedium = "res://Map Resources/Tile Resources/City Resources/cityMedium.png"
-var imgLarge = "res://Map Resources/Tile Resources/City Resources/cityLarge.png"
-var imgIndustry = "res://Map Resources/Tile Resources/City Resources/cityIndustry.png"
+const imgSmall = "res://Map Resources/Tile Resources/City Resources/citySmall.png"
+const imgMedium = "res://Map Resources/Tile Resources/City Resources/cityMedium.png"
+const imgLarge = "res://Map Resources/Tile Resources/City Resources/cityLarge.png"
+const imgIndustry = "res://Map Resources/Tile Resources/City Resources/cityIndustry.png"
 
 # IC cutoffs
 const cutoffMedium = 5

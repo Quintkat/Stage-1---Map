@@ -40,15 +40,15 @@ func _init():
 		terrain[colour[t]] = t
 
 
-func colour(t):
+func colour(t : String):
 	if !(t in colour):
 		return colour[TERRAIN_DEFAULT]
 	return colour[t]
 
-func terrain(c):
+func terrain(c : Color):
 	if !(c in terrain):
 		return TERRAIN_DEFAULT
 	return terrain[c]
 
-func land(t):
+func land(t : String):
 	return !(t in nonLand)

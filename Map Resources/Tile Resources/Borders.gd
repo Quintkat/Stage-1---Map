@@ -1,38 +1,35 @@
 extends Control
 
-onready var East = $East
-onready var North = $North
-onready var West = $West
-onready var South = $South
+#onready var East = $East
+#onready var North = $North
+#onready var West = $West
+#onready var South = $South
+const cardinals = ["North", "East", "South", "West"]
 
 # Setting up all of the border rectangles based on info the tile provides
 func init(tileSize : int, subgridSize : int, colour : Color):
 	var width : int = tileSize/subgridSize
-	East.rect_size = Vector2(width, tileSize)
-	East.rect_position = Vector2(tileSize - width, 0)
-	East.color = colour
-	East.visible = false
-	North.rect_size = Vector2(tileSize, width)
-	North.rect_position = Vector2(0, 0)
-	North.color = colour
-	North.visible = false
-	West.rect_size = Vector2(width, tileSize)
-	West.rect_position = Vector2(0, 0)
-	West.color = colour
-	West.visible = false
-	South.rect_size = Vector2(tileSize, width)
-	South.rect_position = Vector2(0, tileSize - width)
-	South.color = colour
-	South.visible = false
+	var rotation = 0
+	var positions = [Vector2(0, 0), Vector2(tileSize, 0), Vector2(tileSize, tileSize), Vector2(0, tileSize)]
+	
+	for dir in cardinals:
+		var border = get_node(dir)
+		border.rect_size = Vector2(tileSize, width)
+		border.rect_position = positions[rotation/90]
+		border.rect_rotation = rotation
+		rotation += 90
+		
+	updateState([])
+	updateColour(colour)
 
 func updateState(borders: Array):
-	East.visible = 0 in borders
-	North.visible = 1 in borders
-	West.visible = 2 in borders
-	South.visible = 3 in borders
+	for dir in cardinals:
+		get_node(dir).visible = dir in borders
 
 func updateColour(c : Color):
-	East.color = c
-	North.color = c
-	West.color = c
-	South.color = c
+	for dir in cardinals:
+		get_node(dir).color = c
+
+func updateWidth(scale : float):
+	for dir in cardinals:
+		get_node(dir).rect_scale[1] = scale
